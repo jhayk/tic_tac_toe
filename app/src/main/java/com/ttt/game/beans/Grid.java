@@ -5,8 +5,13 @@ package com.ttt.game.beans;
  */
 public class Grid {
 
-   Cell[][] cells = new Cell[3][3];
+   private Cell[][] cells = new Cell[3][3];
 
+   public Cell[][] getCells() {
+      return cells;
+   }
 
-
+   public void setCells(Cell[][] cells) {
+      this.cells = cells;
+   }
 }
