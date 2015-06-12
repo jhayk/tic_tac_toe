@@ -3,6 +3,7 @@ package com.ttt.game.ui;
 import android.app.Activity;
 import android.view.View;
 
+import com.ttt.game.R;
 import com.ttt.game.beans.Game;
 
 /**
@@ -16,7 +17,13 @@ public class GameManger {
         this.activity=activity;
     }
     public void start (){
-//        View cell_00 = activity.findViewById(R.id.)
+        View cell_00 = activity.findViewById(R.id.cell_00);
+        cell_00.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     public int procedure(Game y) {
