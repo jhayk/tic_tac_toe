@@ -1,13 +1,27 @@
-package com.classes;
+package com.ttt.game.ui;
+
+import android.app.Activity;
+import android.view.View;
+
+import com.ttt.game.beans.Game;
 
 /**
  * Created by harutyungrigoryan on 6/11/15.
  */
 public class GameManger {
 
+    private Activity activity;
+
+    public GameManger(Activity activity){
+        this.activity=activity;
+    }
+    public void start (){
+//        View cell_00 = activity.findViewById(R.id.)
+    }
+
     public int procedure(Game y) {
 
-        //WON
+      /*  //WON
         if (y.firstGird.cells[0][0].getSymbol() == 1 && y.firstGird.cells[0][1].getSymbol() == 1 && y.firstGird.cells[0][2].getSymbol() == 1) {
             return 1;
         }
@@ -77,7 +91,7 @@ public class GameManger {
                 }
             }
         }
-
+*/
         return 0;
 
     }
