@@ -1,4 +1,4 @@
-package com.classes;
+package com.ttt.game.beans;
 
 /**
  * Created by harutyungrigoryan on 6/11/15.
